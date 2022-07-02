@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giacomo Baldan</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/GiacomoBaldan.png" alt="Giacomo Baldan" width="120">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Giacomo Baldan">Giacomo Baldan</h1>
+
+          <p class="title">PhD student<br>Computer Science<br>KTH Royal Institute of Technology</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:baldan@kth.se" class="contact-link">baldan@kth.se</a>
+            </div>
+
+          </li>
+
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="school-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Research</p>
+
+              <a href="https://scholar.google.com/citations?user=vLIWHjMAAAAJ&hl=it" class="contact-link">Google Scholar</a>
+              <a href="https://www.researchgate.net/profile/Giacomo-Baldan" class="contact-link">ResearchGate</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">LinkedIn</p>
+
+              <a href="https://it.linkedin.com/in/giacomo-baldan-434a67180" class="contact-link">Giacomo Baldan</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address> Lindstedtsvägen 5, Stockholm, Sweden </address>
+            </div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume active" data-page="resume">
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="school-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">KTH Royal Institute of Technology</h4>
+              <h5 class="h5 timeline-item-title">PhD student in Computer Science</h5>
+              <span>June 2022 — present</span>
+              <p class="timeline-text">
+                - High-performance computing.
+              </p>
+              <p class="timeline-text">
+                - Adaptive Data Reduction on Heterogeneous HPC Workloads.
+              </p>
+
+              <p class="timeline-text">
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Institute of Aerodynamics and Flow Technology - German Aerospace Center (DLR)</h4>
+              <h5 class="h5 timeline-item-title">Researcher</h5>
+              <span>September 2021 — May 2022</span>
+
+              <p class="timeline-text">
+                - Employed in the framework of NextSim EU H2020 project.
+              </p>
+              <p class="timeline-text">
+                - Developer of modern algorithms and their highly parallel implementation in the next generation flow solver CODA for efficient numerical flow simulation on massively parallel computing clusters.
+              </p>
+              <p class="timeline-text">
+                - C++ and Python.
+              </p>
+              <p class="timeline-text">
+                - Hybrid MPI/OpenMP parallelization.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Politecnico di Milano</h4>
+              <h5 class="h5 timeline-item-title">MSc in Aeronautical Engineering - Aerodynamics Curriculum</h5>
+              <span>September 2019 — July 2021</span>
+
+              <p class="timeline-text">
+                - Graduated with 110/110 cum Laude.
+              </p>
+              <p class="timeline-text">
+                - Thesis: An innovative scalable Lagrangian particle tracking approach for distributed-memory computation of dispersed phase flows (Supervisor: Prof. A. Guardone).
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">CINECA</h4>
+              <h5 class="h5 timeline-item-title">Virtual School on Numerical Methods for Parallel CFD - Two Weeks</h5>
+              <span>December 2020</span>
+
+              <p class="timeline-text">
+                - State-of-the-art methodologies, numerical methods, and codes for hybrid multi-many core HPC clusters.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Università degli Studi di Padova</h4>
+              <h5 class="h5 timeline-item-title">BSc in Aerospace Engineering</h5>
+              <span>October 2016 — July 2019</span>
+
+              <p class="timeline-text">
+                - Graduated with 110/110 cum Laude.
+              </p>
+              <p class="timeline-text">
+                - Thesis: Adaptive mesh refinement algorithms in diffusion problems (Supervisor: Prof. F. Picano).
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Publications</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <span>2022</span>
+
+              <p class="timeline-text">
+                - <u>G. Baldan</u>, R. Borrell and J. Jägersküpper, <i>A runtime-based dynamic mesh partitioning
+                approach</i>, in 8th European Congress on Computational Methods in Applied Sciences and Engineering
+                (ECCOMAS Congress 2022).
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <span>2021</span>
+
+              <p class="timeline-text">
+                - <u>G. Baldan</u>, T. Bellosta, and A. Guardone, <i>A scalable Lagrangian particle tracking</i>, in VII
+                International Conference on Particle-based Methods (Particles 2021).
+              </p>
+              <p class="timeline-text">
+                - <u>G. Baldan</u>, T. Bellosta, and A. Guardone, <i>Efficient parallel algorithms for coupled fluid-particle
+                simulation</i>, in IX International Conference on Coupled Problems in Science and Engineering
+                (Coupled 2021).
+              </p>
+              <p class="timeline-text">
+                - M. Baldan, <u>G. Baldan</u>, and B. Nacke, <i>Solving 1D nonlinear magneto quasi-static Maxwell’s
+                equations using neural networks</i>, IET Science, Measurement & Technology , 15(2):204–217,
+                2021.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
