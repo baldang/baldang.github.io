@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My First Post on Giacomo Baldan</title>
+    <link>http://baldang.github.io/</link>
+    <description>Recent content in My First Post on Giacomo Baldan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://baldang.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Education</title>
+      <link>http://baldang.github.io/education/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://baldang.github.io/education/</guid>
+      <description>Politecnico di Milano PhD student in Aerospace Engineering November 2022 — Present Rotor blade dynamic stall: from high order aerodynamics to comprehensive models. KTH Royal Institute of Technology Researcher June 2022 — October 2022 High-performance computing. Streaming data architectures, ADIOS2, data compression. C++ and Python. MPI, OpenMP, OpenACC, CUDA. Institute of Aerodynamics and Flow Technology - German Aerospace Center (DLR) Researcher September 2021 — May 2022 Employed in the framework of NextSim EU H2020 project.</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>http://baldang.github.io/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://baldang.github.io/publications/</guid>
+      <description>2023 G. Baldan, T. Bellosta and A. Guardone, Efficient Lagrangian particle tracking algorithms for distributed-memory architectures, in Computers &amp;amp; Fluids. 10.1016/j.compfluid.2023.105856 T. Bellosta, G. Baldan, G. Sirianni and A. Guardone, Lagrangian and Eulerian algorithms for water droplets in in-flight ice accretion, in Journal of Computational and Applied Mathematics. 10.1016/j.cam.2023.115230 2022 G. Baldan, R. Borrell and J. Jägersküpper, A runtime-based dynamic mesh partitioning approach, in 8th European Congress on Computational Methods in Applied Sciences and Engineering (ECCOMAS Congress 2022).</description>
+    </item>
+    
+  </channel>
+</rss>
